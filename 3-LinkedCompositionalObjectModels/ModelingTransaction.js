@@ -67,6 +67,12 @@ HashTransaction.calculateHash = function calculateHash(){
 
 /* LEFT OFF IN 3.3 - UNDERSTANDING OBJECT.ASSIGN */
 
+// You can use Object.Assign() to merge the properties of various objects.
+
+// use case: developing a mashup of several API responses and would like to deliver a response body
+// as a single JSON.
+
+
 
 
 
