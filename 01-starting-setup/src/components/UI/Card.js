@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card(props){
+const Card = (props) => {
     // Making sure that any value set on the class named prop is added
     // to this long string of class names
     const classes = 'card ' + props.className;
